@@ -9,7 +9,7 @@ sass.compiler = require("node-sass");
 const routes = {
   css: {
     watch: "src/scss/*", // comfile 시작
-    src: "src/scss/styles.scss", // comfile 파일
+    src: "src/scss/*.scss", // comfile 파일
     dest: "dist/css", // comfile 저장
   },
 };
