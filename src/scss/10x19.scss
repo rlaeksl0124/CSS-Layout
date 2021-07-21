@@ -13,6 +13,7 @@ body {
   grid-template-columns: 1.3fr 1.9fr 1.3fr;
   grid-template-rows: 1fr 5fr 1fr;
   gap: 1px;
+
   & > * {
     background-color: white;
     display: flex;
