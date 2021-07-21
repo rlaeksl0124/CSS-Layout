@@ -24,6 +24,11 @@ body {
   }
   .menu {
     grid-column-start: -2;
+    cursor: pointer;
+    &:hover {
+      background-color: $bg-10x19;
+      color: white;
+    }
   }
   .center-image {
     grid-column: 2 / -2;
@@ -99,4 +104,5 @@ body {
   z-index: 1;
   background-color: $bg-10x19;
   color: white;
+  animation: menuScale 1s linear forwards;
 }
