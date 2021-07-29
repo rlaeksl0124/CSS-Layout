@@ -1,3 +1,4 @@
+// schwartzmedia.scss
 %categoryTitle {
   font-weight: 600;
   font-size: 25px;
@@ -18,4 +19,24 @@
     color: white;
     background-color: black;
   }
+}
+
+// paint-box.scss
+%miniTitle {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+// donicaida.scss
+%grid {
+  display: grid;
+  grid-template-columns: 0.8fr 3fr 5fr;
+}
+
+%tinyText {
+  font-size: 13px;
+  font-family: "Nunito";
 }

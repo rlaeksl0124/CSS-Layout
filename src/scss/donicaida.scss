@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito|PT+Serif:400,400i&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
+@import "_variables";
+@import "_elements";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gowun Batang", serif;
+  color: $black-donicaida;
+  padding: 30px 40px;
+  line-height: 1.3;
+}
+
+header {
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 13.5%;
+}
+
+.works {
+  margin-bottom: 80px;
+  .works__header {
+    @extend %grid;
+    padding-bottom: 10px;
+    span {
+      @extend %tinyText;
+    }
+  }
+  .works__list {
+    .works__work {
+      cursor: pointer;
+      font-size: 24px;
+      border-top: 1px solid $black-donicaida;
+      padding: 15px 0px;
+      @extend %grid;
+      &:hover {
+        font-style: italic;
+      }
+    }
+  }
+}
+
+.cv {
+  margin-bottom: 8%;
+}
+
+.cv,
+.about {
+  font-size: 30px;
+  span {
+    @extend %tinyText;
+    cursor: default;
+  }
+}
+
+a {
+  &:hover {
+    font-style: italic;
+  }
+  color: $black-donicaida;
+}
+
+.about {
+  padding-bottom: 80px;
+}
